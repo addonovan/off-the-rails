@@ -34,6 +34,9 @@ political_decisions = {
 			MEX_94   = { add_core = TEX } # Nevada
 			MEX_85   = { add_core = TEX } # California
 
+			# Colorado
+			108      = { add_core = TEX } # Grand Junction
+
 			# Wyoming
 			110      = { add_core = TEX } # Rock Springs
 
