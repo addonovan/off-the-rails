@@ -30,13 +30,23 @@ political_decisions = {
 			badboy = 15 
 			relation = { who = MEX value = -400 }
 
-			USA_106  = { add_core = TEX } # Colorado
-			MEX_103  = { add_core = TEX } # New Mexico
-			MEX_100  = { add_core = TEX } # Arizona
+			MEX_97   = { add_core = TEX } # Utah
 			MEX_94   = { add_core = TEX } # Nevada
 			MEX_85   = { add_core = TEX } # California
-			2662     = { add_core = TEX } # Baja California
-			102      = { add_core = TEX } # Baja California del Sur
+
+			# Wyoming
+			110      = { add_core = TEX } # Rock Springs
+
+			# New Mexico
+			2148     = { add_core = TEX } # Albuquerque
+
+			# Arizona
+			100      = { add_core = TEX } # Phoenix
+			101      = { add_core = TEX } # Flagstaff
+
+			# Sonora 
+			2139     = { add_core = TEX } # Rosarito
+			2138     = { add_core = TEX } # Loreto 
 		}
 	}
 }
