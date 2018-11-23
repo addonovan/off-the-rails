@@ -69,12 +69,32 @@ country_event = {
 		tag = TEX
 		war = no
 		owns = 134
-
-		# TODO do a Texan population check here
+		134 = { total_pops = 7500 }
 	}
 
 	fire_only_once = yes
-	mean_time_to_happen = { years = 2 }
+	mean_time_to_happen = { 
+		years = 2 
+		modifier = {
+			factor = 0.75 
+			134 = { total_pops = 10000 }
+		}
+
+		modifier = {
+			factor = 0.50
+			134 = { total_pops = 15000 }
+		}
+
+		modifier = {
+			factor = 0.25
+			134 = { total_pops = 20000 }
+		}
+
+		modifier = {
+			factor = 0.01
+			134 = { total_pops = 30000 }
+		}
+	}
 
 	option = {
 		name = "EVT1836002OPTA"
@@ -102,12 +122,32 @@ country_event = {
 		tag = TEX
 		war = no
 		owns = 43 
-
-		# TODO do a Texan population check here
+		43 = { total_pops = 10000 }
 	}
 
 	fire_only_once = yes
-	mean_time_to_happen = { years = 2 }
+	mean_time_to_happen = { 
+		years = 2 
+		modifier = {
+			factor = 0.5 
+			43 = { total_pops = 15000 }
+		}
+
+		modifier = {
+			factor = 0.25
+			43 = { total_pops = 20000 }
+		}
+
+		modifier = {
+			factor = 0.10
+			43 = { total_pops = 25000 }
+		}
+
+		modifier = {
+			factor = 0.01
+			43 = { total_pops = 30000 }
+		}
+	}
 
 	option = {
 		name = "EVT1836002OPTA"
