@@ -1,4 +1,4 @@
-capital = 133
+capital = 132
 primary_culture = texan
 religion = protestant
 government = democracy
