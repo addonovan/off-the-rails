@@ -77,7 +77,7 @@ country_event = {
 	mean_time_to_happen = { years = 2 }
 
 	option = {
-		name = "EVT1836002A"
+		name = "EVT1836002OPTA"
 		134 = { 
 			random_list = {
 				50 = { change_province_name = "Dallas" }
@@ -110,7 +110,7 @@ country_event = {
 	mean_time_to_happen = { years = 2 }
 
 	option = {
-		name = "EVT1836002A"
+		name = "EVT1836002OPTA"
 		43 = { 
 			random_list = {
 				40 = { change_province_name = "Tyler" }
