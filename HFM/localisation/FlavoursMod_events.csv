@@ -568,4 +568,8 @@ EVT999700OPTB;Crete shall be free!;;;;;;;;;;x;;;;
 EVTNAME1836000;The Revolution is over!;;;;;;;;;;x;;;;
 EVTDESC1836000;Our Revolution is won! Texas is now an independent country. We face a difficult road ahead with limited international recognition and an enemy who does not respect our claims.But for now, we celebrate! Our general, Sam Houston, has been elected as our first president and we shall commemorate him with our new capital's name!;;;;;;;;;;x;;;;
 EVT1836000OPTA;Huzzah!;;;;;;;;;;x;;;;
+EVTNAME1836001;The New Texan Capital;;;;;;;;;;x;;;;
+EVTDESC1836001;While our current capital is well located for our Republic's current de facto territory, it may become an issue in the future after we have undisputed control over our rightful territory. Our capital will be too far away from the rest of our territory and governmental communication will be slow. A new capital site has been proposed along the Colorado around a community currently named Waterloo. Should we decide to move the capital, a new name shall be chosen, one to honor Texas' father, Stephen Fuller Austin.;;;;;;;;;;x;;;;
+EVT1836001OPTA;Austin on the Colorado would work better;;;;;;;;;;x;;;;
+EVT1836001OPTB;Nonsense! The current capital is fine!;;;;;;;;;;x;;;;
 
