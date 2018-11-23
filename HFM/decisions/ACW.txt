@@ -1835,9 +1835,11 @@ political_decisions = {
 				}
 				life_rating = 5
 			}
-			43 = { change_province_name = "Dallas" life_rating = 5 }
-			134 = { change_province_name = "Abilene" }
+            # Texas province names
+			134 = { change_province_name = "Dallas" life_rating = 5 }
+			 43 = { change_province_name = "Tyler" }
 			135 = { change_province_name = "Lubbock" }
+
 			92 = { change_province_name = "Coeur D'Alene" }
 			93 = { change_province_name = "Pocatello" }
 			111 = { change_province_name = "Rock Springs" }
