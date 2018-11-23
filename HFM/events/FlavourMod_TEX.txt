@@ -37,7 +37,6 @@ country_event = {
 	}
 	
 	fire_only_once = yes
-	
 	mean_time_to_happen = { months = 2 }
 	
 	# Austin 
@@ -57,6 +56,68 @@ country_event = {
 	option = {
 		name = "EVT1836001OPTB" #Don't change
 		ai_chance = { factor = 40 }
+	}
+}
+
+# Dallas grows
+country_event = {
+	id = 1836002
+	title = "EVTNAME1836002"
+	desc = "EVTDESC1836002"
+
+	trigger = {
+		tag = TEX
+		war = no
+		owns = 134
+
+		# TODO do a Texan population check here
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = { years = 2 }
+
+	option = {
+		name = "EVT1836002A"
+		134 = { 
+			random_list = {
+				50 = { change_province_name = "Dallas" }
+				20 = { change_province_name = "Fort Worth" }
+				10 = { change_province_name = "Denton" }
+				 5 = { change_province_name = "Arlington" }
+				 5 = { change_province_name = "Lancaster" }
+				10 = {} # Keep current name
+			}
+			life_rating = 5 
+		}
+	}
+}
+
+# Tyler grows
+country_event = {
+	id = 1836003
+	title = "EVTNAME1836003"
+	desc = "EVTDESC1836003"
+
+	trigger = {
+		tag = TEX
+		war = no
+		owns = 43 
+
+		# TODO do a Texan population check here
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = { years = 2 }
+
+	option = {
+		name = "EVT1836002A"
+		43 = { 
+			random_list = {
+				40 = { change_province_name = "Tyler" }
+				40 = { change_province_name = "Nacogdoches" }
+				20 = { change_province_name = "Longview" }
+			}
+		}
 	}
 }
 
