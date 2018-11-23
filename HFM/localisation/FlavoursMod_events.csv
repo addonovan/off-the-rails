@@ -572,4 +572,9 @@ EVTNAME1836001;The New Texan Capital;;;;;;;;;;x;;;;
 EVTDESC1836001;While our current capital is well located for our Republic's current de facto territory, it may become an issue in the future after we have undisputed control over our rightful territory. Our capital will be too far away from the rest of our territory and governmental communication will be slow. A new capital site has been proposed along the Colorado around a community currently named Waterloo. Should we decide to move the capital, a new name shall be chosen, one to honor Texas' father, Stephen Fuller Austin.;;;;;;;;;;x;;;;
 EVT1836001OPTA;Austin on the Colorado would work better;;;;;;;;;;x;;;;
 EVT1836001OPTB;Nonsense! The current capital is fine!;;;;;;;;;;x;;;;
-
+EVTNAME1836002;Fort Parker Grows!;;;;;;;;;;x;;;;
+EVTDESC1836002;The area around Fort Parker has grown significantly in recent times.;;;;;;;;;;x;;;;
+EVT1836002OPTA;This is good news;;;;;;;;;;x;;;;
+EVTNAME1836003;Clarksville Grows!;;;;;;;;;;x;;;;
+EVTDESC1836003;The area around Clarksville has grown significantly in the recent years.;;;;;;;;;;x;;;;
+EVT1836003OPTA;This is good news;;;;;;;;;;x;;;;
