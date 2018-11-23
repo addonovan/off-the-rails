@@ -1835,7 +1835,7 @@ political_decisions = {
 				}
 				life_rating = 5
 			}
-            # Texas province names
+			# Texas province names
 			134 = { change_province_name = "Dallas" life_rating = 5 }
 			 43 = { change_province_name = "Tyler" }
 			135 = { change_province_name = "Lubbock" }
