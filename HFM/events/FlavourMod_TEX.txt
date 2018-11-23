@@ -47,7 +47,7 @@ country_event = {
 			change_province_name = "Austin" 
 			any_pop = { militancy = -1 }
 		}
-		capital = 132 
+		capital = 133
 		prestige = 2
 		ai_chance = { factor = 60 }
 	}
