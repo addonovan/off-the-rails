@@ -148,6 +148,7 @@ political_decisions = {
 				government = prussian_constitutionalism
 			}
 			NOT = { invention = the_dark_continent }
+            NOT = { has_global_flag = colonrial_railroading_disbaled }
 		}
 		
 		allow = {
