@@ -365,6 +365,7 @@ political_decisions = {
 				}
 			}
 			NOT = { has_country_flag = british_east_africa }
+            NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
@@ -418,6 +419,7 @@ political_decisions = {
 					vassal_of = THIS
 				}
 			}
+            NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
@@ -452,6 +454,7 @@ political_decisions = {
 			NOT = { has_country_flag = british_sierra_leone }
 			owns = 1884
 			1885 = { empty = yes }
+            NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
