@@ -501,6 +501,7 @@ political_decisions = {
 				}
 			}
 			NOT = { has_country_flag = brazzas_expedition }
+            NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
@@ -527,6 +528,7 @@ political_decisions = {
 			capital = 425
 			has_global_flag = berlin_conference
 			NOT = { has_global_flag = ai_french_west_africa }
+            NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
