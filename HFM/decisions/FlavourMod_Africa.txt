@@ -285,6 +285,7 @@ political_decisions = {
 				civilized = no
 				war = no
 			}
+            NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
