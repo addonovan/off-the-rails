@@ -234,6 +234,7 @@ political_decisions = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
 			}
+            NOT = { has_global_flag = colonial_railroading_disbaled }
 		}
 		
 		allow = {
