@@ -282,13 +282,13 @@ political_decisions = {
 		
 		effect = {
 			clr_global_flag = texas_renamed_mexico
-			43 = { change_province_name = "Dallas" }
+			134 = { change_province_name = "Dallas" }
+			 43 = { change_province_name = "Tyler" }
 			132 = { change_province_name = "Houston" }
 			133 = {
 				change_province_name = "Austin"
 				state_scope = { change_region_name = "Texas" }
 			}
-			134 = { change_province_name = "Abilene" } 
 			prestige = 2
 		}
 		ai_will_do = { factor = 1 }

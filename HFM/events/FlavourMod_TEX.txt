@@ -1,0 +1,163 @@
+# The Revolution is Over
+country_event = {
+	id = 1836000
+	title = "EVTNAME1836000"
+	desc = "EVTDESC1836000"
+	
+	trigger = {
+		tag = TEX
+		war = no
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = { months = 1 }
+
+	# Honor our President and General 
+	option = {
+		name = "EVT1836000OPTA"
+		prestige = 5
+		132 = { change_province_name = "Houston" }
+	}
+}
+
+# The Texan Capital
+country_event = {
+	# This is based off of event 1836001 in GERFlavor.txt
+	id = 1836001 
+	title = "EVTNAME1836001"
+	desc = "EVTDESC1836001"
+
+	trigger = {
+		tag = TEX
+		war = no
+		year = 1840
+		owns = 132 # Houston
+		owns = 133 # Waterloo / Austin
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 2 }
+	
+	# Austin 
+	option = {
+		name = "EVT1836001OPTA"
+		capital_scope = { any_pop = { consciousness = 1 } }
+		133 = { 
+			change_province_name = "Austin" 
+			any_pop = { militancy = -1 }
+		}
+		capital = 133
+		prestige = 2
+		ai_chance = { factor = 60 }
+	}
+	
+	# Leave it in Houston
+	option = {
+		name = "EVT1836001OPTB" #Don't change
+		ai_chance = { factor = 40 }
+	}
+}
+
+# Dallas grows
+country_event = {
+	id = 1836002
+	title = "EVTNAME1836002"
+	desc = "EVTDESC1836002"
+
+	trigger = {
+		tag = TEX
+		war = no
+		owns = 134
+		134 = { total_pops = 7500 }
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = { 
+		years = 2 
+		modifier = {
+			factor = 0.75 
+			134 = { total_pops = 10000 }
+		}
+
+		modifier = {
+			factor = 0.50
+			134 = { total_pops = 15000 }
+		}
+
+		modifier = {
+			factor = 0.25
+			134 = { total_pops = 20000 }
+		}
+
+		modifier = {
+			factor = 0.01
+			134 = { total_pops = 30000 }
+		}
+	}
+
+	option = {
+		name = "EVT1836002OPTA"
+		134 = { 
+			random_list = {
+				50 = { change_province_name = "Dallas" }
+				20 = { change_province_name = "Fort Worth" }
+				10 = { change_province_name = "Denton" }
+				 5 = { change_province_name = "Arlington" }
+				 5 = { change_province_name = "Lancaster" }
+				10 = {} # Keep current name
+			}
+			life_rating = 5 
+		}
+	}
+}
+
+# Tyler grows
+country_event = {
+	id = 1836003
+	title = "EVTNAME1836003"
+	desc = "EVTDESC1836003"
+
+	trigger = {
+		tag = TEX
+		war = no
+		owns = 43 
+		43 = { total_pops = 10000 }
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = { 
+		years = 2 
+		modifier = {
+			factor = 0.5 
+			43 = { total_pops = 15000 }
+		}
+
+		modifier = {
+			factor = 0.25
+			43 = { total_pops = 20000 }
+		}
+
+		modifier = {
+			factor = 0.10
+			43 = { total_pops = 25000 }
+		}
+
+		modifier = {
+			factor = 0.01
+			43 = { total_pops = 30000 }
+		}
+	}
+
+	option = {
+		name = "EVT1836002OPTA"
+		43 = { 
+			random_list = {
+				40 = { change_province_name = "Tyler" }
+				40 = { change_province_name = "Nacogdoches" }
+				20 = { change_province_name = "Longview" }
+			}
+		}
+	}
+}
+
