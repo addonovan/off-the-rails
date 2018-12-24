@@ -84,6 +84,7 @@ political_decisions = {
 				government = prussian_constitutionalism
 			}
 			NOT = { invention = the_dark_continent }
+			NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
@@ -148,7 +149,7 @@ political_decisions = {
 				government = prussian_constitutionalism
 			}
 			NOT = { invention = the_dark_continent } 
-			NOT = { has_global_flag = colonial_railroading_disbaled }
+			NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
@@ -234,7 +235,7 @@ political_decisions = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
 			}
-			NOT = { has_global_flag = colonial_railroading_disbaled }
+			NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
@@ -1163,7 +1164,6 @@ political_decisions = {
 			capital = 425
 			has_country_flag = 2nd_republic
 			NOT = { has_country_flag = organize_algeria_1848 } 
-			NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
@@ -1218,7 +1218,6 @@ political_decisions = {
 			ALD_1708 = { owned_by = THIS }
 			FRA_1700 = { owned_by = THIS }
 			NOT = { has_country_flag = cremieux_decree } 
-			NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
 		allow = {
