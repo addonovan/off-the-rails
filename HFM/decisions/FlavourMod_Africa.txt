@@ -454,7 +454,7 @@ political_decisions = {
 			NOT = { government = proletarian_dictatorship }
 			NOT = { has_country_flag = british_sierra_leone }
 			owns = 1884
-			1885 = { empty = yes } N
+			1885 = { empty = yes } 
 			NOT = { has_global_flag = colonial_railroading_disabled }
 		}
 		
