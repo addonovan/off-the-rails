@@ -1,8 +1,12 @@
-# Historical Flavour Mod
-Current Version: 1.27F Beta
+# HFM Derailroaded 
+
+Version: 1.0  
+HFM Version: 1.27F (Beta)  
+
 How to download:
-1. Click this link: https://github.com/SighPie/HFM/archive/Development.zip
-3. Unzip "HFM-Development.zip"
-4. Extract "HFM" Folder & "HFM.mod" into "Steam\steamapps\steamapps\common\Victoria 2\mod"
-5. Activate HFM in your Victoria 2 Launcher
-6. DO NOT ACTIVATE HPM, HFM IS MEANT TO BE RUN AS STANDALONE
+1. Go [here][https://github.com/addonovan/hfm/releases/latest]
+2. Download *Source code (zip)*
+3. Extract "HFM" Folder & "HFM.mod" into "Steam\steamapps\steamapps\common\Victoria 2\mod"
+4. Activate HFM in your Victoria 2 Launcher
+5. DO NOT ACTIVATE HPM, HFM IS MEANT TO BE RUN AS STANDALONE
+
