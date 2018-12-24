@@ -1434,12 +1434,12 @@ country_event = {
 		ai_chance = { 
 			factor = 70 
 			modifier = { 
-                factor = 100  
-                OR = {
-                    has_global_flag = disable_colonial_railroading
-                    FROM = { ai = yes }
-                }
-            }
+				factor = 100  
+				OR = {
+					has_global_flag = disable_colonial_railroading
+					FROM = { ai = yes }
+				}
+			}
 		}
 	}
 	
